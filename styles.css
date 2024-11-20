@@ -1,0 +1,74 @@
+.header{
+    display: flex;
+    background-color: rgb(34, 33, 33);
+    height:60px;
+    align-items: center;
+    padding-right: 20px;
+    justify-content: space-between;
+}
+
+ul,li{
+
+    display: flex;
+    column-gap: 50px;
+    align-items: center;
+    color:white;
+    text-decoration: none;
+    list-style: none;
+    font-size: 24px;
+}
+
+
+.first{
+    background-image: url(coffee-2242213_1280.jpg);
+    height:800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#shophere:hover{
+    background-color: orange;
+}
+
+
+#first_section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.third{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+
+.fourth{
+    background-image: url(paper-1074131_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#fourth_part2{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 45px;
+}
+
+
+.fifth{
+    background-image: url(teapot-6123746_1280.jpg);
+    height:500px;
+}
+
